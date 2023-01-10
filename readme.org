@@ -1,0 +1,15 @@
+#+title: Readme
+
+* Description
+
+This is a small utility program which reads a source file's birth timestamp and sets
+the deftination files's access and modificaction time to that value.
+
+This can probably done with some flags of `rsync` or even `cp`, but I took this opportunity
+to write some C again.  Memories ...
+
+* Use Case
+
+I wanted to sync some files to iCloud, but somehow iCloud sync fscks up time stamps.  As
+I use a note keeping tool which uses modificaction time stamps, this distorted note sorting
+which was extremely annoying.
